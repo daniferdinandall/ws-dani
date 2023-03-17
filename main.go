@@ -3,14 +3,14 @@ package main
 import (
 	"log"
 
-	"iteung/config"
+	"github.com/daniferdinandall/Pemrograman-3/ws-dani/config"
 
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 
 	"github.com/whatsauth/whatsauth"
 
-	"iteung/url"
+	"github.com/daniferdinandall/Pemrograman-3/ws-dani/url"
 
 	"github.com/gofiber/fiber/v2"
 )
