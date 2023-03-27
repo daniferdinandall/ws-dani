@@ -4,8 +4,11 @@ import (
 	"strconv"
 
 	"github.com/aiteung/musik"
-	dhs "github.com/daniferdinandall/be_dhs2"
+	cek "github.com/aiteung/presensi"
+	"github.com/daniferdinandall/Pemrograman-3/ws-dani/config"
 	"github.com/gofiber/fiber/v2"
+
+	dhs "github.com/daniferdinandall/be_dhs2"
 )
 
 func Homepage(c *fiber.Ctx) error {
@@ -29,5 +32,10 @@ func GetDhs(c *fiber.Ctx) error {
 func GetAllDhs(c *fiber.Ctx) error {
 
 	ps := dhs.GetDhsAll()
+	return c.JSON(ps)
+}
+
+func GetPresensi(c *fiber.Ctx) error {
+	ps := cek.GetPresensiCurrentMonth(config.Ulbimongoconn)
 	return c.JSON(ps)
 }

@@ -11,7 +11,7 @@ func Web(page *fiber.App) {
 	page.Get("/", controller.Homepage)
 	page.Get("/dhs", controller.GetDhs)
 	page.Get("/dhs-all", controller.GetAllDhs)
-	// page.Get("/setdhs", controller.GetPresensi)
+	page.Get("/presensi", controller.GetPresensi)
 	page.Post("/api/whatsauth/request", controller.PostWhatsAuthRequest)  //API from user whatsapp message from iteung gowa
 	page.Get("/ws/whatsauth/qr", websocket.New(controller.WsWhatsAuthQR)) //websocket whatsauth
 
