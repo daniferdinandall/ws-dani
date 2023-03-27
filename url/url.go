@@ -9,7 +9,7 @@ import (
 
 func Web(page *fiber.App) {
 	page.Get("/", controller.Homepage)
-	page.Get("/presensi", controller.GetDhs)
+	page.Get("/dhs", controller.GetDhs)
 	// page.Get("/getdhs", controller.GetPresensi)
 	// page.Get("/setdhs", controller.GetPresensi)
 	page.Post("/api/whatsauth/request", controller.PostWhatsAuthRequest)  //API from user whatsapp message from iteung gowa
