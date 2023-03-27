@@ -25,3 +25,9 @@ func GetDhs(c *fiber.Ctx) error {
 
 	return c.JSON(ps)
 }
+
+func GetAllDhs(c *fiber.Ctx) error {
+
+	ps := dhs.GetDhsAll()
+	return c.JSON(ps)
+}
