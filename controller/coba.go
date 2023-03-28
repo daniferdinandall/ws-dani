@@ -8,7 +8,7 @@ import (
 	"github.com/daniferdinandall/Pemrograman-3/ws-dani/config"
 	"github.com/gofiber/fiber/v2"
 
-	dhs "github.com/daniferdinandall/be_dhs2"
+	module "github.com/daniferdinandall/be_dhs2/module"
 )
 
 func Homepage(c *fiber.Ctx) error {
@@ -31,14 +31,14 @@ func GetDhs(c *fiber.Ctx) error {
 		// panic(err)
 		return c.SendString("format params kurang tepat")
 	}
-	ps := dhs.GetDhsFromNPM(int(i))
+	ps := module.GetDhsFromNPM(int(i))
 
 	return c.JSON(ps)
 }
 
 func GetAllDhs(c *fiber.Ctx) error {
 
-	ps := dhs.GetDhsAll()
+	ps := module.GetDhsAll()
 	return c.JSON(ps)
 }
 
@@ -52,14 +52,14 @@ func GetMhs(c *fiber.Ctx) error {
 		// panic(err)
 		return c.SendString("format params kurang tepat")
 	}
-	ps := dhs.GetMhsFromNPM(int(i))
+	ps := module.GetMhsFromNPM(int(i))
 
 	return c.JSON(ps)
 }
 
 func GetAllMhs(c *fiber.Ctx) error {
 
-	ps := dhs.GetMhsAll()
+	ps := module.GetMhsAll()
 	return c.JSON(ps)
 }
 
@@ -68,27 +68,27 @@ func GetAllMhs(c *fiber.Ctx) error {
 func GetDosen(c *fiber.Ctx) error {
 	queryValue := c.Query("kode")
 
-	ps := dhs.GetDosenFromKodeDosen(queryValue)
+	ps := module.GetDosenFromKodeDosen(queryValue)
 
 	return c.JSON(ps)
 }
 
 func GetAllDosen(c *fiber.Ctx) error {
 
-	ps := dhs.GetDosenAll()
+	ps := module.GetDosenAll()
 	return c.JSON(ps)
 }
 
 func GetMatkul(c *fiber.Ctx) error {
 	queryValue := c.Query("kode")
 
-	ps := dhs.GetMatkulFromKodeMatkul(queryValue)
+	ps := module.GetMatkulFromKodeMatkul(queryValue)
 
 	return c.JSON(ps)
 }
 
 func GetAllMatkul(c *fiber.Ctx) error {
 
-	ps := dhs.GetMatkulAll()
+	ps := module.GetMatkulAll()
 	return c.JSON(ps)
 }

@@ -30,6 +30,8 @@ github.com/daniferdinandall/be_dhs2 v0.0.3 h1:LTgMlBUaSIOY9I0fLFwsRKm7bFMiMgzTQv
 github.com/daniferdinandall/be_dhs2 v0.0.3/go.mod h1:3pkzmno+ObwgBcGw+2b92J9BePT74Ju/mRq5M4+vdOs=
 github.com/daniferdinandall/be_dhs2 v0.0.4 h1:BJssIIj+Iwo+00As2L/S1rSfLcUbqtIQe5xRTpRXkUc=
 github.com/daniferdinandall/be_dhs2 v0.0.4/go.mod h1:3pkzmno+ObwgBcGw+2b92J9BePT74Ju/mRq5M4+vdOs=
+github.com/daniferdinandall/be_dhs2 v0.0.5 h1:4w8m0QD3pj4tmKdAw2dz7bDNtgXv4c2s0i5aqCyjZHM=
+github.com/daniferdinandall/be_dhs2 v0.0.5/go.mod h1:FISUtwz84fLi7Sn/tV1KLdAdgHgp9EduRzHJ55aP0+s=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
