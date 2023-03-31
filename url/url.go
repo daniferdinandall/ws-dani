@@ -9,7 +9,7 @@ import (
 
 func Web(page *fiber.App) {
 	page.Get("/", controller.Homepage)
-	page.Get("/presensi", controller.GetPresensi)
+	page.Get("/presensidev", controller.GetPresensi)
 	page.Get("/dhs", controller.GetDhs)
 	page.Get("/dhs-all", controller.GetAllDhs)
 	page.Get("/mahasiswa", controller.GetMhs)
@@ -20,5 +20,6 @@ func Web(page *fiber.App) {
 	page.Get("/matkul-all", controller.GetAllMatkul)
 	page.Post("/api/whatsauth/request", controller.PostWhatsAuthRequest)  //API from user whatsapp message from iteung gowa
 	page.Get("/ws/whatsauth/qr", websocket.New(controller.WsWhatsAuthQR)) //websocket whatsauth
-
+	page.Get("/presensi", controller.GetAllPresensi)                      //menampilkan seluruh data presensi
+	page.Get("/presensi/:id", controller.GetPresensiID)                   //menampilkan data presensi berdasarkan id
 }
