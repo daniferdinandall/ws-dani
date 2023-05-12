@@ -13,13 +13,17 @@ import (
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
 
+	model "github.com/daniferdinandall/be_dhs2/model"
 	module "github.com/daniferdinandall/be_dhs2/module"
-	modulePresensi "github.com/indrariksa/be_presensi/module"
 )
 
 func Homepage(c *fiber.Ctx) error {
 	ipaddr := musik.GetIPaddress()
 	return c.JSON(ipaddr)
+}
+func GetAllPresensi(c *fiber.Ctx) error {
+	ps := module.GetAllPresensi(config.Ulbimongoconn, "presensi")
+	return c.JSON(ps)
 }
 func GetPresensiID(c *fiber.Ctx) error {
 	id := c.Params("id")
@@ -36,7 +40,7 @@ func GetPresensiID(c *fiber.Ctx) error {
 			"message": "Invalid id parameter",
 		})
 	}
-	ps, err := modulePresensi.GetPresensiFromID(objID, config.Ulbimongoconn, "presensi")
+	ps, err := module.GetPresensiFromID(objID, config.Ulbimongoconn, "presensi")
 	if err != nil {
 		if errors.Is(err, mongo.ErrNoDocuments) {
 			return c.Status(http.StatusNotFound).JSON(fiber.Map{
@@ -51,15 +55,38 @@ func GetPresensiID(c *fiber.Ctx) error {
 	}
 	return c.JSON(ps)
 }
-
-func GetAllPresensi(c *fiber.Ctx) error {
-	ps := modulePresensi.GetAllPresensi(config.Ulbimongoconn, "presensi")
-	return c.JSON(ps)
-}
-
 func GetPresensi(c *fiber.Ctx) error {
 	ps := cek.GetPresensiCurrentMonth(config.Ulbimongoconn)
 	return c.JSON(ps)
+}
+
+func InsertData(c *fiber.Ctx) error {
+	db := config.Ulbimongoconn
+	var presensi model.Presensi
+	if err := c.BodyParser(&presensi); err != nil {
+		return c.Status(http.StatusInternalServerError).JSON(fiber.Map{
+			"status":  http.StatusInternalServerError,
+			"message": err.Error(),
+		})
+	}
+	insertedID, err := module.InsertPresensi(db, "presensi",
+		presensi.Longitude,
+		presensi.Latitude,
+		presensi.Location,
+		presensi.Phone_number,
+		presensi.Checkin,
+		presensi.Biodata)
+	if err != nil {
+		return c.Status(http.StatusInternalServerError).JSON(fiber.Map{
+			"status":  http.StatusInternalServerError,
+			"message": err.Error(),
+		})
+	}
+	return c.Status(http.StatusOK).JSON(fiber.Map{
+		"status":      http.StatusOK,
+		"message":     "Data berhasil disimpan.",
+		"inserted_id": insertedID,
+	})
 }
 
 // dhs

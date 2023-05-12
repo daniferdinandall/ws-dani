@@ -1,0 +1,682 @@
+[{
+  "_id": {
+    "$oid": "640ab78895f3532039d28ab8"
+  },
+  "longitude": 123.561651,
+  "latitude": 98.345345,
+  "location": "jakarta",
+  "phone_number": "6811110023233",
+  "datetime": {
+    "$date": {
+      "$numberLong": "1678423944199"
+    }
+  },
+  "checkin": "masuk",
+  "biodata": {
+    "nama": "Ferdo Sambi",
+    "phone_number": "6284564562",
+    "jabatan": "DPR",
+    "jam_kerja": [
+      {
+        "durasi": 8,
+        "jam_masuk": "08:00",
+        "jam_keluar": "16:00",
+        "gmt": 7,
+        "hari": [
+          "Senin",
+          "Rabu"
+        ],
+        "shift": 1,
+        "piket_tim": "Piket A"
+      },
+      {
+        "durasi": 8,
+        "jam_masuk": "09:00",
+        "jam_keluar": "17:00",
+        "gmt": 7,
+        "hari": [
+          "Sabtu"
+        ],
+        "shift": 2
+      }
+    ],
+    "hari_kerja": [
+      "Senin",
+      "Selasa"
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "6412ce78686d9e9ba557cf8a"
+  },
+  "longitude": 123.561651,
+  "latitude": 98.345345,
+  "location": "Hawai",
+  "phone_number": "6811110023231",
+  "datetime": {
+    "$date": {
+      "$numberLong": "1678954104857"
+    }
+  },
+  "checkin": "masuk",
+  "biodata": {
+    "nama": "Parhan",
+    "phone_number": "6284564562",
+    "jabatan": "DPR",
+    "jam_kerja": [
+      {
+        "durasi": 8,
+        "jam_masuk": "08:00",
+        "jam_keluar": "16:00",
+        "gmt": 7,
+        "hari": [
+          "Senin",
+          "Rabu",
+          "Kamis"
+        ],
+        "shift": 1,
+        "piket_tim": "Piket A"
+      },
+      {
+        "durasi": 8,
+        "jam_masuk": "09:00",
+        "jam_keluar": "17:00",
+        "gmt": 7,
+        "hari": [
+          "Sabtu"
+        ],
+        "shift": 2
+      }
+    ],
+    "hari_kerja": [
+      "Senin",
+      "Selasa"
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "6418986315f258884e482ef6"
+  },
+  "longitude": 121.561654,
+  "latitude": 91.345345,
+  "location": "Cileunyi",
+  "phone_number": "628123456789",
+  "datetime": {
+    "$date": {
+      "$numberLong": "1679333475778"
+    }
+  },
+  "checkin": "masuk",
+  "biodata": {
+    "nama": "Van Nistelrooy",
+    "phone_number": "6284564562",
+    "jabatan": "Rakyat",
+    "jam_kerja": [
+      {
+        "durasi": 8,
+        "jam_masuk": "08:00",
+        "jam_keluar": "16:00",
+        "gmt": 7,
+        "hari": [
+          "Senin",
+          "Rabu",
+          "Kamis"
+        ],
+        "shift": 1,
+        "piket_tim": "Piket A"
+      }
+    ],
+    "hari_kerja": [
+      "Senin",
+      "Selasa"
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "641898e76dd7bd217d69762a"
+  },
+  "longitude": 121.561654,
+  "latitude": 91.345345,
+  "location": "Cibiru",
+  "phone_number": "628123456789",
+  "datetime": {
+    "$date": {
+      "$numberLong": "1679333607248"
+    }
+  },
+  "checkin": "masuk",
+  "biodata": {
+    "nama": "Ruud Gullit",
+    "phone_number": "6284564562",
+    "jabatan": "Rakyat",
+    "jam_kerja": [
+      {
+        "durasi": 8,
+        "jam_masuk": "08:00",
+        "jam_keluar": "16:00",
+        "gmt": 7,
+        "hari": [
+          "Senin",
+          "Rabu",
+          "Kamis"
+        ],
+        "shift": 1,
+        "piket_tim": "Piket A"
+      }
+    ],
+    "hari_kerja": [
+      "Senin",
+      "Selasa"
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "642134e2bfec502add314633"
+  },
+  "longitude": 121.561654,
+  "latitude": 91.345345,
+  "location": "Cileunyi",
+  "phone_number": "628122221814",
+  "datetime": {
+    "$date": {
+      "$numberLong": "1679897826719"
+    }
+  },
+  "checkin": "keluar",
+  "biodata": {
+    "nama": "Van Basten",
+    "phone_number": "6284564562",
+    "jabatan": "Rakyat",
+    "jam_kerja": [
+      {
+        "durasi": 8,
+        "jam_masuk": "08:00",
+        "jam_keluar": "16:00",
+        "gmt": 7,
+        "hari": [
+          "Senin",
+          "Rabu",
+          "Kamis"
+        ],
+        "shift": 1,
+        "piket_tim": "Piket A"
+      }
+    ],
+    "hari_kerja": [
+      "Senin",
+      "Selasa"
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "6422d7bf7746b8d0ee717cb4"
+  },
+  "longitude": 99.123456,
+  "latitude": 123.789012,
+  "location": "Los Angeles",
+  "phone_number": "6811110023232",
+  "checkin": "pulang",
+  "biodata": {
+    "nama": "Diego Maradona",
+    "phone_number": "6281234567",
+    "jabatan": "Legenda",
+    "jam_kerja": [
+      {
+        "durasi": 8,
+        "jam_masuk": "08:00",
+        "jam_keluar": "16:00",
+        "gmt": 7,
+        "hari": [
+          "Senin",
+          "Rabu",
+          "Kamis"
+        ],
+        "shift": 1,
+        "piket_tim": "Piket A"
+      }
+    ],
+    "hari_kerja": [
+      "Senin",
+      "Jumat"
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "6422df98412154e4d9b4354b"
+  },
+  "longitude": 91.345345,
+  "latitude": 121.561654,
+  "location": "Gegerkalong",
+  "phone_number": "628123456789",
+  "datetime": {
+    "$date": {
+      "$numberLong": "1680007064301"
+    }
+  },
+  "checkin": "MASUK",
+  "biodata": {
+    "nama": "Lev Yashin",
+    "phone_number": "6284564562",
+    "jabatan": "Legenda",
+    "jam_kerja": [
+      {
+        "durasi": 8,
+        "jam_masuk": "08:00",
+        "jam_keluar": "16:00",
+        "gmt": 7,
+        "hari": [
+          "Senin",
+          "Rabu",
+          "Kamis"
+        ],
+        "shift": 1,
+        "piket_tim": "Piket A"
+      }
+    ],
+    "hari_kerja": [
+      "Senin",
+      "Kamis"
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "6425178a768027b0e69a258b"
+  },
+  "location": "Dago",
+  "phone_number": "628451231876",
+  "datetime": {
+    "$date": {
+      "$numberLong": "1680152458653"
+    }
+  },
+  "checkin": "MASUK",
+  "biodata": {
+    "nama": "David Ginola",
+    "phone_number": "628451231876",
+    "jabatan": "Legenda",
+    "jam_kerja": [
+      {
+        "durasi": 8,
+        "jam_masuk": "08:00",
+        "jam_keluar": "16:00",
+        "gmt": 7,
+        "hari": [
+          "Senin",
+          "Rabu",
+          "Kamis"
+        ],
+        "shift": 1,
+        "piket_tim": "Piket A"
+      }
+    ],
+    "hari_kerja": [
+      "Senin",
+      "Kamis"
+    ]
+  },
+  "longitude": 91.31111,
+  "latitude": 125.56165
+},{
+  "_id": {
+    "$oid": "6422e300f590e691c91082cb"
+  },
+  "location": "Brazil",
+  "phone_number": "6281234415151",
+  "datetime": {
+    "$date": {
+      "$numberLong": "1680007936382"
+    }
+  },
+  "checkin": "masuk",
+  "biodata": {
+    "nama": "Pele",
+    "phone_number": "6281234415151",
+    "jabatan": "Legenda Brazil",
+    "jam_kerja": [
+      {
+        "durasi": 8,
+        "jam_masuk": "08:00",
+        "jam_keluar": "16:00",
+        "gmt": 7,
+        "hari": [
+          "Senin",
+          "Rabu",
+          "Kamis"
+        ],
+        "shift": 1,
+        "piket_tim": "Piket A"
+      }
+    ],
+    "hari_kerja": [
+      "Senin",
+      "Kamis"
+    ]
+  },
+  "longitude": 91.345333,
+  "latitude": 121.561655
+},{
+  "_id": {
+    "$oid": "64254ca9dd90a06061f7e995"
+  },
+  "longitude": 122.4141232,
+  "latitude": 98.947144,
+  "location": "Sarijadi",
+  "phone_number": "0812211787899",
+  "datetime": {
+    "$date": {
+      "$numberLong": "1680166057828"
+    }
+  },
+  "checkin": "Masuk",
+  "biodata": {
+    "nama": "Paulo Eriksen",
+    "jabatan": "Direktur",
+    "jam_kerja": [
+      {
+        "durasi": 8,
+        "jam_masuk": "08:30",
+        "jam_keluar": "16:30"
+      }
+    ],
+    "hari_kerja": [
+      "Selasa",
+      "Rabu",
+      "Jum'at",
+      "Sabtu"
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "64267c358bcbc7f2fb9cfe78"
+  },
+  "datetime": {
+    "$date": {
+      "$numberLong": "1680243765387"
+    }
+  },
+  "checkin": "Masuk",
+  "biodata": {
+    "nama": "Sadako",
+    "phone_number": "628134523423",
+    "jabatan": "Ghost",
+    "jam_kerja": [
+      {
+        "durasi": 5,
+        "jam_masuk": "08:00",
+        "jam_keluar": "13:00",
+        "gmt": 7,
+        "hari": [
+          "Senin",
+          "Selasa",
+          "Rabu",
+          "Kamis"
+        ],
+        "shift": 1,
+        "piket_tim": "Piket A"
+      }
+    ],
+    "hari_kerja": [
+      "Senin",
+      "Selasa",
+      "Rabu",
+      "Kamis"
+    ]
+  },
+  "longitude": 91.345345,
+  "latitude": 121.561654,
+  "location": "Tokyo",
+  "phone_number": "628134523423"
+},{
+  "_id": {
+    "$oid": "6412d351ee3ebecee5a7ea56"
+  },
+  "longitude": 123.561651,
+  "latitude": 98.345345,
+  "location": "New York",
+  "phone_number": "6811110023231",
+  "datetime": {
+    "$date": {
+      "$numberLong": "1678955345263"
+    }
+  },
+  "checkin": "masuk",
+  "biodata": {
+    "nama": "Puskas",
+    "phone_number": "6284564562",
+    "jabatan": "Rakyat",
+    "jam_kerja": [
+      {
+        "durasi": 8,
+        "jam_masuk": "08:00",
+        "jam_keluar": "16:00",
+        "gmt": 7,
+        "hari": [
+          "Senin",
+          "Rabu",
+          "Kamis"
+        ],
+        "shift": 1,
+        "piket_tim": "Piket A"
+      },
+      {
+        "durasi": 8,
+        "jam_masuk": "09:00",
+        "jam_keluar": "17:00",
+        "gmt": 7,
+        "hari": [
+          "Sabtu"
+        ],
+        "shift": 2
+      }
+    ],
+    "hari_kerja": [
+      "Senin",
+      "Selasa"
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "64136001f730f4123ebdd7d7"
+  },
+  "longitude": 123.561651,
+  "latitude": 98.345345,
+  "location": "New York",
+  "phone_number": "6811110023231",
+  "datetime": {
+    "$date": {
+      "$numberLong": "1678991361701"
+    }
+  },
+  "checkin": "masuk",
+  "biodata": {
+    "nama": "Cantona",
+    "phone_number": "6284564562",
+    "jabatan": "Rakyat",
+    "jam_kerja": [
+      {
+        "durasi": 8,
+        "jam_masuk": "08:00",
+        "jam_keluar": "16:00",
+        "gmt": 7,
+        "hari": [
+          "Senin",
+          "Rabu",
+          "Kamis"
+        ],
+        "shift": 1,
+        "piket_tim": "Piket A"
+      },
+      {
+        "durasi": 8,
+        "jam_masuk": "09:00",
+        "jam_keluar": "17:00",
+        "gmt": 7,
+        "hari": [
+          "Sabtu"
+        ],
+        "shift": 2
+      }
+    ],
+    "hari_kerja": [
+      "Senin",
+      "Selasa"
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "6422da1e42a6b689f4a93d64"
+  },
+  "longitude": 91.345345,
+  "latitude": 121.561654,
+  "location": "Gegerkalongee",
+  "phone_number": "628123456789",
+  "datetime": {
+    "$date": {
+      "$numberLong": "1680005662635"
+    }
+  },
+  "checkin": "MASUK",
+  "biodata": {
+    "nama": "George Best",
+    "phone_number": "6284564562",
+    "jabatan": "Rakyat",
+    "jam_kerja": [
+      {
+        "durasi": 8,
+        "jam_masuk": "08:00",
+        "jam_keluar": "16:00",
+        "gmt": 7,
+        "hari": [
+          "Senin",
+          "Rabu",
+          "Kamis"
+        ],
+        "shift": 1,
+        "piket_tim": "Piket A"
+      }
+    ],
+    "hari_kerja": [
+      "Senin",
+      "Selasa"
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "64253328b2db1c23da8c6df3"
+  },
+  "longitude": 7878.899,
+  "latitude": 7644.44,
+  "location": "cimahi",
+  "phone_number": "0988173662153",
+  "datetime": {
+    "$date": {
+      "$numberLong": "1680159528541"
+    }
+  },
+  "checkin": "Masuk",
+  "biodata": {
+    "nama": "Fredy Johnson",
+    "jabatan": "CEO",
+    "jam_kerja": [
+      {
+        "durasi": 8,
+        "jam_masuk": "08:00",
+        "jam_keluar": "16:00"
+      }
+    ],
+    "hari_kerja": [
+      "Senin",
+      "Selasa",
+      "Rabu",
+      "Kamis"
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "642557dfd5885a362d67a66b"
+  },
+  "longitude": 91.32313,
+  "latitude": 125.541278,
+  "location": "Setiabudhi",
+  "phone_number": "628451231876",
+  "datetime": {
+    "$date": {
+      "$numberLong": "1680168927668"
+    }
+  },
+  "checkin": "MASUK",
+  "biodata": {
+    "nama": "David Ginola",
+    "phone_number": "628451231876",
+    "jabatan": "CEO",
+    "jam_kerja": [
+      {
+        "durasi": 8,
+        "jam_masuk": "08:00",
+        "jam_keluar": "16:00",
+        "gmt": 7,
+        "hari": [
+          "Senin",
+          "Rabu",
+          "Kamis"
+        ],
+        "shift": 1,
+        "piket_tim": "Piket A"
+      }
+    ],
+    "hari_kerja": [
+      "Senin",
+      "Kamis"
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "64253ce4b2db1c23da8c6df4"
+  },
+  "phone_number": "087631253123",
+  "datetime": {
+    "$date": {
+      "$numberLong": "1680162020513"
+    }
+  },
+  "checkin": "Masuk",
+  "biodata": {
+    "nama": "Erpan",
+    "jabatan": "Manager",
+    "jam_kerja": [
+      {
+        "durasi": 8,
+        "jam_masuk": "08:00",
+        "jam_keluar": "16:00"
+      }
+    ],
+    "hari_kerja": [
+      "Senin",
+      "Rabu",
+      "Kamis",
+      "Jum'at"
+    ]
+  },
+  "longitude": 221.421412,
+  "latitude": 90.3444,
+  "location": "Cihanjuang"
+},{
+  "_id": {
+    "$oid": "6426ad9a12e8da6841173e3b"
+  },
+  "longitude": 123.561651,
+  "latitude": 98.345345,
+  "location": "Rumah",
+  "phone_number": "68122221814",
+  "datetime": {
+    "$date": {
+      "$numberLong": "1680256409802"
+    }
+  },
+  "checkin": "masuk",
+  "biodata": {
+    "nama": "dani",
+    "phone_number": "628456456211",
+    "jabatan": "Rakyat Biasa"
+  }
+}]

@@ -22,4 +22,5 @@ func Web(page *fiber.App) {
 	page.Get("/ws/whatsauth/qr", websocket.New(controller.WsWhatsAuthQR)) //websocket whatsauth
 	page.Get("/presensi", controller.GetAllPresensi)                      //menampilkan seluruh data presensi
 	page.Get("/presensi/:id", controller.GetPresensiID)                   //menampilkan data presensi berdasarkan id
+	page.Post("/ins", controller.InsertData)
 }
