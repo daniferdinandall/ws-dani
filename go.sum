@@ -22,8 +22,8 @@ github.com/aiteung/presensi v0.0.34/go.mod h1:JwCqXJawBWvEnbWmjJRby3DK0ynWX16q5V
 github.com/andybalholm/brotli v1.0.4/go.mod h1:fO7iG3H7G2nSZ7m0zPUDn85XEX2GTukHGRSepvi9Eig=
 github.com/andybalholm/brotli v1.0.5 h1:8uQZIdzKmjc/iuPu7O2ioW48L81FgatrcpfFmiq/cCs=
 github.com/andybalholm/brotli v1.0.5/go.mod h1:fO7iG3H7G2nSZ7m0zPUDn85XEX2GTukHGRSepvi9Eig=
-github.com/daniferdinandall/be_dhs2 v0.0.6 h1:jqTF6iVPbXrZx1dUd12fH9hwZ62adB038x00d8vO2Ig=
-github.com/daniferdinandall/be_dhs2 v0.0.6/go.mod h1:f5Fkp1WBPcC4tmVqlSARAMA5swBgfsRhvcSaTzL1bAk=
+github.com/daniferdinandall/be_dhs2 v0.0.7 h1:jIwrctzmhdWCtck0M4Q4Kus22L2HTE+AIkOetKeZY9E=
+github.com/daniferdinandall/be_dhs2 v0.0.7/go.mod h1:f5Fkp1WBPcC4tmVqlSARAMA5swBgfsRhvcSaTzL1bAk=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
