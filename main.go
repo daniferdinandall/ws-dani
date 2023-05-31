@@ -24,6 +24,19 @@ func Dangdut() (port string) {
 	}
 	return
 }
+
+// @title TES SWAG
+// @version 1.0
+// @description This is a sample swagger for Fiber
+
+// @contact.name API Support
+// @contact.url https://github.com/indrariksa
+// @contact.email indra@ulbi.ac.id
+
+// @host ws-ulbi.herokuapp.com
+// @BasePath /
+// @schemes https http
+
 func main() {
 	go whatsauth.RunHub()
 	site := fiber.New(config.Iteung)
