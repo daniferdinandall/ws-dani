@@ -118,7 +118,7 @@ paths:
           description: Internal Server Error
       summary: Delete data presensi.
       tags:
-      - Presensi
+      - Dani
   /ins:
     post:
       consumes:

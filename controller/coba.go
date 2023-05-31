@@ -183,7 +183,7 @@ func UpdateData(c *fiber.Ctx) error {
 // DeletePresensiByID godoc
 // @Summary Delete data presensi.
 // @Description Hapus data presensi.
-// @Tags Presensi
+// @Tags Dani
 // @Accept json
 // @Produce json
 // @Param id path string true "Masukan ID"

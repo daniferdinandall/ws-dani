@@ -30,7 +30,7 @@ const docTemplate = `{
                     "application/json"
                 ],
                 "tags": [
-                    "Presensi"
+                    "Dani"
                 ],
                 "summary": "Delete data presensi.",
                 "parameters": [
