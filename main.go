@@ -13,6 +13,8 @@ import (
 	"github.com/daniferdinandall/Pemrograman-3/ws-dani/url"
 
 	"github.com/gofiber/fiber/v2"
+
+	_ "github.com/daniferdinandall/Pemrograman-3/ws-dani/docs"
 )
 
 func Dangdut() (port string) {
