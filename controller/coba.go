@@ -130,7 +130,7 @@ func InsertData(c *fiber.Ctx) error {
 // @Produce json
 // @Param id path string true "Masukan ID"
 // @Param request body Presensi true "Payload Body [RAW]"
-// @Success 200 {object} Presensi
+// @Success 200 {object} Karyawan
 // @Failure 400
 // @Failure 500
 // @Router /upd/{id} [put]

@@ -194,7 +194,7 @@ const docTemplate = `{
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "$ref": "#/definitions/controller.Presensi"
+                            "$ref": "#/definitions/controller.Karyawan"
                         }
                     },
                     "400": {

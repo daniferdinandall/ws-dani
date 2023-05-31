@@ -210,7 +210,7 @@ paths:
         "200":
           description: OK
           schema:
-            $ref: '#/definitions/controller.Presensi'
+            $ref: '#/definitions/controller.Karyawan'
         "400":
           description: Bad Request
         "500":
