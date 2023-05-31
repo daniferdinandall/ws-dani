@@ -30,10 +30,10 @@ func Dangdut() (port string) {
 // @description This is a sample swagger for Fiber
 
 // @contact.name API Support
-// @contact.url https://github.com/indrariksa
-// @contact.email indra@ulbi.ac.id
+// @contact.url https://github.com/daniferdinandall
+// @contact.email 1214050@std.ac.id
 
-// @host ws-ulbi.herokuapp.com
+// @host ws-dani.herokuapp.com
 // @BasePath /
 // @schemes https http
 

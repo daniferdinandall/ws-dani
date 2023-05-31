@@ -12,8 +12,8 @@ const docTemplate = `{
         "title": "{{.Title}}",
         "contact": {
             "name": "API Support",
-            "url": "https://github.com/indrariksa",
-            "email": "indra@ulbi.ac.id"
+            "url": "https://github.com/daniferdinandall",
+            "email": "1214050@std.ac.id"
         },
         "version": "{{.Version}}"
     },
@@ -25,7 +25,7 @@ const docTemplate = `{
 // SwaggerInfo holds exported Swagger Info so clients can modify it
 var SwaggerInfo = &swag.Spec{
 	Version:          "1.0",
-	Host:             "ws-ulbi.herokuapp.com",
+	Host:             "ws-dani.herokuapp.com",
 	BasePath:         "/",
 	Schemes:          []string{"https", "http"},
 	Title:            "TES SWAG",

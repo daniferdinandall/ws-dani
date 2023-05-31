@@ -1,10 +1,10 @@
 basePath: /
-host: ws-ulbi.herokuapp.com
+host: ws-dani.herokuapp.com
 info:
   contact:
-    email: indra@ulbi.ac.id
+    email: 1214050@std.ac.id
     name: API Support
-    url: https://github.com/indrariksa
+    url: https://github.com/daniferdinandall
   description: This is a sample swagger for Fiber
   title: TES SWAG
   version: "1.0"
