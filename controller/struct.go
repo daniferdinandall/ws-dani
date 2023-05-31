@@ -25,7 +25,7 @@ type JamKerja struct {
 }
 
 type Presensi struct {
-	ID           primitive.ObjectID `bson:"_id,omitempty" json:"_id,omitempty" example:"123456789"`
+	ID           primitive.ObjectID `bson:"_id,omitempty" json:"_id,omitempty"`
 	Longitude    float64            `bson:"longitude,omitempty" json:"longitude,omitempty" example:"123.11"`
 	Latitude     float64            `bson:"latitude,omitempty" json:"latitude,omitempty" example:"123.11"`
 	Location     string             `bson:"location,omitempty" json:"location,omitempty" example:"Bandung"`
